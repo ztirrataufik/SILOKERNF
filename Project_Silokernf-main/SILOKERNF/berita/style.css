@@ -1,0 +1,89 @@
+body {
+    background-color: #f1f1f1;
+}
+/* nav */
+.navbar-brand,
+    .nav-link {
+        color: white!important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        font-weight: bolder;
+        
+    }
+
+/* mulai hubungan */
+    .breadcrumb {
+        float: right;
+        background: transparent;
+    }
+    
+    .breadcrumb .breadcrumb-item{
+        font-size: 11px;
+    }
+    .card img {
+        height: 260px;
+        object-fit: cover;
+    }
+    .judul {
+        margin-top: 17px;
+        margin-bottom: 20px;
+        text-align: -webkit-center;
+        display: block;
+    }
+    .judul:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    /* Footer */
+footer {
+    padding: 21px 0;
+    background-color:  #12cad6;
+    text-align: center;
+    font-size: 14px;
+}
+footer p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins-Medium";
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+/* Dekstop version */
+@media (min-width: 992px) {
+
+    .nav-link {
+        color: white!important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+        font-weight: bolder;
+        margin-left: 3px;
+    }
+
+
+
+    nav-link {
+        text-transform: uppercase;
+        margin-right: 400px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .breadcrumb .breadcrumb-item{
+        font-size: 15px;
+    }
+    
+}

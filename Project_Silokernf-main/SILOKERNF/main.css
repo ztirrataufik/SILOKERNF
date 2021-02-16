@@ -1,0 +1,180 @@
+body {
+    background-color: #f1f1f1;
+}
+
+/* nav */
+nav {
+    padding: 1rem .5rem !important;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background: linear-gradient(3600deg, #f1f1f1 40%, #12cad6 60%);
+    background-size: cover;
+    height: 440px;
+    text-align: center;
+    position: relative;
+
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 100px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.jumbotron h3 {
+    color: black;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.jumbotron h3 span {
+    font-weight: 500;
+}
+
+
+/* workingspace */
+.judul {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: -webkit-center;
+    display: block;
+}
+
+.judul:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 20%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.team img {
+    width: 180px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 50px 50px 50px 5px;
+    border: 3px #48d2fc solid;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.card img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    padding: 21px 0;
+    background-color: #12cad6;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins-Medium";
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+/* Dekstop version */
+@media (min-width: 992px) {
+
+    .nav-link {
+
+        margin-left: 3px;
+    }
+
+
+
+    nav-link {
+        text-transform: uppercase;
+        margin-right: 400px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+    .team img {
+        width: 350px;
+        height: 250px;
+        object-fit: contain;
+        border-radius: 50px 50px 50px 5px;
+        border: 3px #48d2fc solid;
+        box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+    .jumbotron {
+        margin-top: -75px;
+        height: 640;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 45px;
+    }
+
+    .jumbotron h3 span {
+        font-weight: 500;
+    }
+
+    .jumbotron h3 {
+        color: black;
+        margin-top: 100px;
+        font-weight: 200;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .judul:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 20%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+}
